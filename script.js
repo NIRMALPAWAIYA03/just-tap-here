@@ -52,7 +52,7 @@ function typeGreeting() {
         // textContent use karein taaki line breaks dikhein
         greetingElement.textContent += greetingText.charAt(charIndex);
         charIndex++;
-        setTimeout(typeGreeting, 50); // Typing speed
+        setTimeout(typeGreeting, 80); // Typing speed
     }
 }
 
